@@ -98,7 +98,7 @@ Without `Lock()`:
 5. **Why is synchronization important when multiple threads access shared data?**
    Without it, threads can overwrite each other's updates, causing lost updates and incorrect results.
 
-**Observation:** When the lock was removed, the final counter (insert your observation here: was it still 200000 or lower?). The result can vary depending on the Python version and execution environment.
+**Observation:** When the lock was removed, the final counter was still 200000. The result can vary depending on the Python version and execution environment.
 
 ---
 
